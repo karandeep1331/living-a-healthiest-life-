@@ -1,0 +1,118 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Uses Arial font for the body */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container layout using flexbox */
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 80%; /* Limit the width of the container to 80% of the screen size */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+/* Content section with a max width */
+.content {
+    padding: 0 20px;
+    max-width: 1200px; /* Limit the width of the container to 1200px */
+    margin: 0 auto;
+}
+
+/* Section styling with padding and border */
+section {
+    margin-bottom: 50px;
+    padding: 50px 25px;
+    border: 1px solid #fafafa;
+    background-color: #fafafa;
+}
+
+/* Removes margin from the last section */
+section:last-of-type {
+    margin-bottom: 0; /* Remove margin bottom to last of type on section */
+}
+
+/* Styling for reference list items */
+.ref li {
+    list-style: none;
+    padding-bottom: 9px;
+}
+
+/* Removes text decoration from links in the sidebar */
+aside a {
+    text-decoration: none;
+}
+
+/* Adds padding below each list item in the sidebar */
+aside li {
+    padding-bottom: 4px;
+}
+
+/* Centers text for elements with the 'stud' class */
+.stud {
+    text-align: center;
+}
+
+/* Removes the margin from the heading in '.stud' */
+.stud h1 {
+    margin: unset; /* Remove margins from heading element */
+}
+
+/* Image styling */
+img {
+    width: 90%;
+}
+
+/* Top-level unordered list styling */
+.top-level-ul {
+    list-style-type: none;
+}
+
+/* Styling for the top-level list items */
+.top-level-li {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Sub-level unordered list styling */
+.sub-level-ul {
+    list-style-type: none;
+}
+
+/* Styling for sub-level list items */
+.sub-level-ul li {
+    padding: 0 0 0 10px;
+}
+
+/* Styling for sub-level links */
+.sub-level-ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    color: #2170cc;
+}
+
+/* Hover effect for sub-level links */
+.sub-level-ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #08227f;
+}
+
+/* General link styling */
+a {
+    text-decoration: none;
+    color: #2170cc;
+    cursor: pointer;
+}
+
+/* Hover effect for all links */
+a:hover {
+    text-decoration: underline;
+    color: #08227f;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+/* Content section with padding, max-width, and center alignment */
+.content {
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styling for paragraphs within the content */
+.content p {
+  padding: 5px 0;
+}
+
+/* General section styling with padding, margin, border, and background color */
+section {
+  margin-bottom: 50px;
+  padding: 50px 25px;
+  border: 1px solid #fafafa;
+  background-color: #fafafa;
+}
+
+/* Removes margin below the last section */
+section:last-of-type {
+  margin-bottom: 0; /* Remove margin bottom to last of type on section */
+}
+
+/* Adds space above the heading (h3) within sections */
+section h3 {
+  margin-top: 24px;
+}
+
+/* Removes top margin from the first h3 in any section */
+section h3:first-of-type {
+  margin-bottom: 0; /* Remove margin top to first of type on section heading */
+}
+
+section h4 {
+  margin-top: 20px;
+}
+
+/* Styling any unordered list (ul) */
+ul {
+  padding: 0 20px;
+}
+
+/* Adds margin between list items in the unordered list */
+ul li {
+  margin: 10px 0 0;
+}
+
+/* General link styling */
+a {
+  text-decoration: none;
+  color: #2170cc;
+  cursor: pointer;
+}
+
+/* Styling for links when hovered */
+a:hover {
+  text-decoration: underline;
+  color: #08227f;
+  cursor: pointer;
+}

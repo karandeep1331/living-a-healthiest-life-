@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Page Editor - Rafael Ferreira</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/pageEditor_validator.css" />
+    <link rel="stylesheet" href="./css/content2.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+          <div class="logo-div">
+              <a href="home.html">
+                <img src="assets/logo/puma-logo-white.jpg" alt="Living Your Healthiest Life logo" class="logo">
+              </a>
+          </div>
+          <nav>
+              <ul class="nav-links">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="volunteer.html">Volunteer</a></li>
+                  <li><a href="feedback.html">Feedback</a></li>
+                  <li><a href="sitemap.html">Sitemap</a></li>
+                  <li><a href="profile.html">User profile</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="table.html">Table</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+  <main class="main-container">
+    <aside class="sidebar">
+        <ul class="sidebar-links">
+          <li><a href="#nav"> Navigation and Footer </a></li>
+          <li><a href="#homep"> Home Page </a></li>
+          <li><a href="#content"> Content Page </a></li>
+          <li><a href="#table"> Table </a></li>
+        </ul>
+      </aside>
+
+      <div class="content">
+        <section>
+            <h2 id="nav">Navigation Bar and footer</h2>
+                <h3>Technical Description</h3>
+                    <p> 
+                        I used a range of style tags in CSS to implement the navigation bar. I put it inside the <i>header</i> and <i>nav</i> tag to make the code 
+                        readable by dividing the navigation section. I have used an unordered list to make the navigation bar with a unstructured lust <i>ul</i> , 
+                        using hyperlinks <i>a</i> to provide navigation to different pages. I designed it to be as user-friendly as possible since the navigation bar 
+                        is the most fundamental part of a webpage, providing the users with an easy-to-access the whole website. The colour I have chosen for the
+                        navigation bar was also meant to contrast nicely with the text and logo.
+                      </p>
+                        <br>
+                    <p>
+                      Like the navigation bar, the footer provides additional links and credits for the students who also worked on this website. 
+                      Also, like the nav, I separated the footer into sections to make the code more readable; I started the footer with the footer tag. 
+                      Also, I used the div command to divide the editor part from the other page links, such as the home page, volunteer, feedback and so on.
+                      My style follows a minimalist design with a grey background, ensuring readability and staying distinct from the webpage's central part. 
+                      I made the footer display flex so the links can be shown in the same line, but all the hyperlinks are displayed vertically to create a cleaner 
+                      and more organised visual.
+                    </p>      
+                    <p>
+                      <i>display: flex</i> on nav creates a horizontal menu layout, so ensures it is aligned, <i>justify-content: center;</i> 
+                      makes the navigation links in the centre, I added <i>padding: 30px 16px;</i> to increase the clickable area making the usability better, 
+                      I have chosen the <i>background-colour: #4CAF50</i> in the nav to provide consistency in the pages and making it lean to a healthy related colour.
+                    </p>
+                    <p>
+                      In the footer I also have used <i>display: flex</i> to align the different sections horizontally to make it more structured, <i>justify-content: space-between</i> to make
+                      space in the footer section to separate the editor pages to the other pages of the website, <i>background-colour: #707070;</i> to create a visual separation of the main page
+                      to the footer.
+
+                      In the footer, I also have used <i>display: flex</i> to align the different sections horizontally to make it more structured, 
+                      <i>justify-content: space-between</i> to make space in the footer section to separate the editor pages from the other pages of the website, 
+                      <i>background-colour: #707070;</i> to create a visual separation of the main page to the footer.
+                    </p>
+                <h3>Accessibility</h3>
+                    <p>
+                      The navigation bar has a responsive design for smaller screens, and the layout adjusts by stacking the links vertically, 
+                      which prevents the navigation menu from becoming overwhelming for the users and makes it easier to interact with the links. 
+                      The logo is also repositioned on the top and centre to make it visible.
+                    </p>
+                    <br>
+                    <p>
+                      The footer also has a responsive behaviour for smaller screens; the layout changes; instead of the hyperlink lists being side by 
+                      side, it changes to vertically aligned.
+                    </p>
+                
+                <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+                    <p><a href="validation_ST2.html#navbar">link to the validation page</a></p> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+                    <p><a href="validation_ST2.html#footer">link to the validation page</a></p> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                <h3>Link to the page</h3>
+                    <p><a href="home.html">Link to the home page</a></p>
+        </section>
+
+        <section>
+            <h2 id="homep">Home Page</h2>
+                <h3>Technical Description</h3>
+                  <p>
+                    I have used it on all the pages !DOCTYPE html to ensure proper HTML5 rendering. Also, on both pages, I used a head to contain essential 
+                    meta tags such as UTF-8 for character encoding and a title to define the page title for the browser and search engines. Also, on both, 
+                    I have added link rel="stylesheet" to add external CSS stylesheets separating the content from the design to make the code more organised 
+                    and improve the code readability. Also, I put a main tag to organise the page's main content. It improves search engine optimisation. Also, 
+                    I have used section tags to divide related content, improving the code readability. I put h1 and a paragraph at the top of the main content 
+                    so the user knows what the website is about at first glance. The content cards were done using a div tag to separate each content page so each 
+                    has its space in the page and two other div so the cards get divided into two. All the cards are hyperlinks that lead to specific web pages. 
+                    I have done that to improve usability since the user can click anywhere on the card, and it will lead to the page they want. Also, I have added 
+                    an img tag so the user can have a visual representation of what the page is about, subheadings saying a key point of the webpage and p tag for 
+                    a brief explanation.
+                  </p> 
+                  <p>
+                    One of the CSS techniques I have chosen was doing a main container for the page .main-container-home with a max-width: 100% to 
+                    fit in many screen sizes and a text-align:center so all the text in the page appears aligned in the centre. Also, I made cards to 
+                    display the web site's content pages, making them interactive for the user. For that, I used the class .content-pages that uses 
+                    display: flex for the cards to appear one next to the other. Also, I used gap: 20px to space them from each other and a padding-bottom: 20px 
+                    to make that space for the cards underneath. To change each card, I have used .content-page that has border-radius: 10px to give a more modern 
+                    rounded appearance, box-shadow: 2px 2px 10px #202020 creates a depth that makes the cards pop for the user, and lastly, 
+                    transition: transform 0.3s to make a smooth transition when hovering the cards.
+                  </p>
+
+                <h3>Accessibility</h3>
+                    <p>
+                      For accessibility on the content page, I have used alt tag in images so screen readers can describe the image, 
+                      so people with sight disability can understand what is being shown, also the page is responsive, it means that smaller 
+                      screens can navigate in the page with little problems, the images get smaller to fit in the webpage and the side nav re-scale
+                      depending on the screen size.
+                    </p>
+
+                <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+                    <p><a href="validation_ST2.html#homep">link to the validation page</a></p>
+
+                    
+                <h3>Link to the page</h3>
+                    <p><a href="home.html">Link to the home page</a></p>
+        </section>
+
+        <section>
+            <h2 id="content">Content Page</h2>
+                <h3>Technical Description</h3>
+                  <p>
+                    I used the main tag to contain the website's primary content, making search engines and accessibility tools to identify the central area of 
+                    the website. I made a sidebar with the tag aside to act as a secondary navigation bar to help users quickly access different page sections. 
+                    I also used div tags to organise the text and images and a section tag to group the related contents of the webpage. Section tags improve 
+                    the webpage's structure and accessibility by defining the different topics, using tags like main, section and aside, and improving the screen 
+                    reading compatibility, making it more accessible. The alt attribute in images also makes it accessible to visually disabled users.
+                 </p> 
+                 <br>
+                 <p>
+                  There are multiple CSS techniques used. One example is position: sticky on the sidebar, which keeps the sidebar visible while scrolling 
+                  down the page. Also, in the sidebar, the property top: 60px ensures that the sidebar stays below the header when scrolling the page. This 
+                  helps to avoid overlapping the sidebar with the navigation bar, making it better for the user to see the webpage. In the main content, using 
+                  margin-left: auto and margin-right: auto helps centre the images dynamically, ensuring they are well-aligned across many different screen sizes.
+                 </p>
+
+                <h3>Accessibility</h3>
+                    <p>
+                      For accessibility on the content page I have used alt tag in images so screen readers can describe the image, 
+                      so people with sight disability can understand what is being shown, also the page is responsive, it means that smaller screens can 
+                      navigate in the page with little problems, the images get smaller to fit in the webpage and the side nav re-scale depending on the screen size
+                    </p>
+
+                <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+                    <p><a href="validation_ST2.html#content">link to the validation page</a></p> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                    
+                <h3>Link to the page</h3>
+                    <p><a href="content_ST2.html">Here is the link for the content page</a></p>
+        </section>
+
+        <section>
+            <h2 id="table">Table Page</h2>
+                <h3>Technical Description</h3>
+                    <p>
+                      In the table page, I used the tags table, tr, th and td; those tags are necessary for creating tables. 
+                      The tag table represents that a table is being made, tr defines a table row, th is used for the table header, 
+                      and td is for regular data cells that display the table's content (exercise, types, recommendations). There were many CSS used in the 
+                      table; one of such is width: 80%, which makes the table not touch the sides of the page, combined with margin: 0 auto, making it go to 
+                      the centre of the page, making it better readability for the user since it is contained in the centre of the page. border-collapse: collapse 
+                      removes the gap between the cells of the table, box-shadow adds a subtle shadow around the table, making it a floating effect to provide a 
+                      more modern aesthetic, adding padding inside th and td make sure that the text in the cells of the table does not touch the borders of the 
+                      cell, making the table more legible. I chose to add a green colour to the table's header because the colour is related to health, which is 
+                      the website's purpose. To add a hover effect, I have done tr:hover, and in the CSS, I changed the background-colour to a slighter, darker 
+                      shade of the colour, making it interactive for other users so they can focus on the row they are looking at.
+                    </p> 
+                 <br>
+
+
+                <h3>Accessibility</h3>
+                    <p>
+                      The page can change the layout for many screen sizes using @media in the CSS file. I have used display: block so the table gets 
+                      displayed in columns, making it better readable for the users. Also, I have added a border so the user knows where the information ends.
+                    </p>
+
+                <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+                    <p><a href="validation_ST2.html#table">link to the validation page</a></p> <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+                    
+                <h3>Link to the page</h3>
+                    <p><a href="table.html">Here is the link for the table page</a></p>
+        </section>
+
+        <section>
+            <h2 id="challenge"> Challenges and Lessons Learned</h2>
+                <p>
+                  Thinking about the design for the page was one of the most challenging parts of creating this website. 
+                  I have discussed a good design for the webpage with all the other group members. The website prototype had a 
+                  completely different colour scheme with a blue navigation bar and a blue side nav. After looking at healthy-focused websites, 
+                  I changed the colour to green, making it more related to the website's primary focus.
+                </p> 
+                  <br>
+                  <p>
+                    Implementing the side navigation on the website was something that I had never done before. I have spent hours trying to figure out and 
+                    watching YouTube videos and different websites on how to implement it, and after a while, I have been able to implement it on the website 
+                    with the help of Gianluca(Student 1)
+                </p> 
+                <p>
+                  Lastly, in this group work, the group decided to use the git method to collaborate with the website. That was my first time using git, so it was a big challenge. I had to search articles and videos to learn how to use it, but I understood it after the first week of creating the website. 
+                </p>
+        </section>
+
+        <section>
+            <h2 id="compliance"> Compliance</h2>
+                <p>
+                  Throughout creating this website, I have made sure that on every page, I followed
+                   Janet's Compliance; none of my pages harms the network security of any users, 
+                   all the pages use ethical and lawful use of the network of users, and no webpage 
+                   is using user data or selling user data to third-party companies since no page is 
+                   gathering data from users, all pages that I have done it is used semantic HTML 
+                   for the document structure like header, nav, section and so on. The pages have 
+                   keyboard navigability, making them accessible to more people. Also, I have ensured
+                    that all the information and images are copyright-free.
+                </p> 
+
+                
+        </section>
+
+        <section>
+            <h2 id="ref">References</h2>
+            <p>Provide links to resources you used following a consistent format (e.g., APA, MLA, or a simplified style). For example:<br><br>
+                <ul class="ref">
+                    <li>Ahmad w. (2025). Available at: https://www.istockphoto.com/vector/health-care-gm1163238996-319345671 [Accessed 12 Feb. 2025].</li>
+                    <li>Artis777 (2018). Unhealthy junk food and healthy diet comparison. Food brain modern... [online] iStock. Available at: https://www.istockphoto.com/vector/vector-unhealthy-junk-food-and-healthy-diet-comparison-food-brain-modern-concept-gm1028802810-275760870?searchscope=image%2Cfilm [Accessed 22 Feb. 2025].</li>
+                    <li>Colematt (2023). Healthy Eating Plate with Balanced Portions illustration. [online] iStock. Available at: https://www.istockphoto.com/vector/healthy-eating-plate-with-balanced-portions-gm1738754992-542482500?searchscope=image%2Cfilm [Accessed 22 Feb. 2025].</li>
+                    <li>Ekaterina B. (2024). Set of fat and thin man with fast food and healthy food inside. The... [online] iStock. Available at: https://www.istockphoto.com/vector/set-of-fat-and-thin-man-with-fast-food-and-healthy-food-inside-the-concept-of-a-gm2057285274-563657063?searchscope=image%2Cfilm [Accessed 22 Feb. 2025].</li>
+                    <li>Ekaterina K. (2020). Healthy food vector illustration. Eat healthy live longer. Ideal for... [online] iStock. Available at: https://www.istockphoto.com/vector/healthy-food-vector-illustration-eat-healthy-live-longer-ideal-for-eco-market-gm1205065900-346987078?searchscope=image%2Cfilm [Accessed 22 Feb. 2025].</li>
+                    <li>nicoletaionescu, (2023). Elderly lady balancing a healthy lifestyle with nutritious food. [online] iStock. Available at: https://www.istockphoto.com/vector/senior-woman-eating-a-healthy-diet-and-lifestyle-vector-cartoon-illustration-gm1494976095-518145349?searchscope=image%2Cfilm [Accessed 22 Feb. 2025].</li>
+                    <li>NHS (2022). 8 Tips for Healthy Eating. [online] NHS. Available at: https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eight-tips-for-healthy-eating/.[Accessed 22 Feb. 2025]</li>
+                    <li>Rudzhan N. (2022). Healthy nutrition concept. Plate with fresh raw vegetables and... [online] iStock. Available at: https://www.istockphoto.com/vector/healthy-nutrition-concept-gm1423267610-468298675?searchscope=image%2Cfilm [Accessed 22 Feb. 2025].</li>
+                    <li>Stellalevi (2024). Large Group of diverse people profile view hand drawn, with different... [online] iStock. Available at: https://www.istockphoto.com/vector/large-group-of-diverse-people-with-thoughts-gm2121029847-567506479?searchscope=image%2Cfilm [Accessed 22 Feb. 2025].</li>
+                    <li>Anastasia C. (2022). A woman lies in bed and cannot fall asleep. Mental disorder concept, depression, insomnia. Vector illustration stock illustration [online] Available at: https://www.istockphoto.com/vector/a-woman-lies-in-bed-and-cannot-fall-asleep-mental-disorder-concept-depression-gm1680182911-536605009 [Accessed 7 Mar. 2025].</li>
+                    <li>Vreemous, (2025). Isolated single color inutritional supplements line icons. [online] iStock. Available at: https://www.istockphoto.com/vector/nutrition-and-food-supplements-icons-gm2193700654-611917796?searchscope=image%2Cfilm [Accessed 22 Feb. 2025].</li>
+                    <li>Yes (2022). Sport, activity, healthy lifestyle and self care graphic clipart,... [online] iStock. Available at: https://www.istockphoto.com/vector/sport-activity-healthy-lifestyle-and-self-care-graphic-clipart-isolated-gm1397686147-452036328?searchscope=image%2Cfilm [Accessed 22 Feb. 2025].</li>
+                </ul>
+        </section>
+
+        <p class="top"><a href="#top">Go top</a></p>
+        </div> 
+  </main>
+<div class="line-above-footer"></div>
+<footer>
+  <div class="footer-container">
+    <div class="footer-links">
+      <h3 class="footer-editor-header">Links</h3>
+      <a href="home.html">Home</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="sitemap.html">Sitemap</a>
+      <a href="profile.html">User profile</a>
+      <a href="team.html">Team</a>
+      <a href="table.html">Table</a>
+    </div>
+    <div class="footer-editor-page">
+      <h3 class="footer-editor-header">Editors</h3>
+      <a href="pageEditor_ST1.html">Gianluca</a>
+      <a href="pageEditor_ST2.html">Rafael</a>
+      <a href="pageEditor_ST3.html">Karandeep</a>
+      <a href="pageEditor_ST4.html">Ayaan</a>
+    </div>
+  </div>
+  <p class="copyright">&copy; 2025 all right reserved</p>
+</footer>
+</body>
+</html>

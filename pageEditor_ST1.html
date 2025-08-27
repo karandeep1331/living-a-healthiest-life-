@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <title>Gianluca Cerniglia Editor's page - Living Your Healthiest Life</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/pageEditor_ST1.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-wrapper">
+      <div class="logo-div">
+        <img src="assets/logo/puma-logo-white.jpg" alt="Living Your Healthiest Life logo" class="logo">
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+          <li><a href="profile.html">User profile</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="table.html">Table</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main tag -->
+  <main class="main-container">
+    <aside class="sidebar">
+      <ul class="sidebar-links">
+        <li><a href="#splash">Splash screen</a></li>
+        <li><a href="#volunteer">Volunteer page</a></li>
+        <li><a href="#content">Content page</a></li>
+        <li><a href="#challenges">Challenges and Lessons Learned</a></li>
+        <li><a href="#compliance">Compliance</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </aside>
+
+    <!-- Content div -->
+    <div class="content">
+      
+      <!-- Student 1 section -->
+      <section>
+        <div>
+          <h1>Gianluca Cerniglia - Editor's Page</h1>
+        </div>
+      </section>
+
+      <!-- Splash page section -->
+      <section>
+        <h2 id="splash">Splash screen</h2>
+        <h3>Introduction</h3>
+        <p>The purpose of this document is to provide an overview of the design and development of the splash screen for the "Healthy Life" website. The splash screen serves as an introductory page that briefly welcomes users to the site and provides a loading effect before redirecting them to the home page.</p>
+        <p>The goal was to create a simple yet visually appealing splash screen that includes a title, a subtitle/motto, group member names, and a loading effect. I aimed to keep the design minimal and functional to ensure a smooth user experience.</p>
+        <h3>Technical Description</h3>
+        <p>The HTML file was structured using fundamental tags to achieve a clear and organized layout:</p>
+        <ul>
+          <li><strong>H1 Tag</strong>: Used to display the website's title: "Healthy life - Living Your Healthiest Life."</li>
+          <li><strong>H2 Tag</strong>: Used for the website's subtitle or motto, providing a clear introduction to the site's mission.</li>
+          <li><strong>IMG Tag</strong>: Applied indirectly as a background image covering the full height and width of the page.</li>
+          <li><strong>UL and LI Tags</strong>: Used to list the names of the group members responsible for creating the project.</li>
+          <li><strong>Meta Tag</strong>: A meta refresh tag was used to automatically redirect the user to the home page (home.html) after 4 seconds.</li>
+        </ul>
+        <h4>Styling and Layout</h4>
+        <p>The splash screen includes a loading effect designed using only CSS. This loader visually indicates that the page is preparing content and then automatically redirects the user to the home page.</p>
+        <p>The splash screen’s design and layout were primarily achieved using CSS, ensuring that the page was simple yet visually appealing. I used flexbox to structure the content, allowing for easy alignment and centering of elements within the splash screen. The background image was applied using the background-image property with background-size: cover to ensure it filled the entire viewport while maintaining its aspect ratio. Additionally, I used the background-attachment: fixed property to keep the image static while scrolling.</p>
+        <p>A custom CSS loader was created to provide a subtle animation effect when the page loads. This was achieved using a linear gradient mask with an animation defined by keyframes. The keyframes gradually expanded the background size, simulating a loading effect. Furthermore, I used a semi-transparent background overlay to keep the text readable despite the background image. The text content was centered vertically and horizontally using flexbox with justify-content: center and align-items: center. I also applied a simple unordered list to display the names of group members without using bullet points by setting list-style: none. Overall, the styling was kept minimal, clean, and easy to navigate.</p>
+        <h3>Accessibility</h3>
+        <p>While developing the splash screen, I made sure to implement accessibility best practices to ensure inclusivity for all users. I included appropriate heading tags (H1 and H2) to maintain a clear and meaningful content hierarchy, which benefits screen readers and improves overall page structure. For the background image, I avoided embedding critical content within the image itself to prevent it from being missed by assistive technologies. The text content was placed in a high-contrast color over a semi-transparent background to ensure readability.</p>
+        <p>Additionally, I applied the alt attribute for the logo and icons on the splash screen to provide alternative text descriptions, allowing visually impaired users to understand the visual elements of the page. I also ensured that the page had no flashing or complex animations that could potentially trigger seizures in sensitive individuals. The loader animation was kept subtle and did not cause any motion-related issues. Lastly, I verified that the color contrast between text and background complied with WCAG 2.1 standards, ensuring all text was clearly legible.</p>
+        <br>
+        <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+        <p><a href="validation_ST1.html#splashVal">Include a link to the validation page</a>, use the marker to jump to
+          the corresponding section of the validation page.</p>
+        <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+        <h3>Link to the page</h3>
+        <p><a href="splash.html">Include a link to the actual page you describe.</a></p>
+      </section>
+
+      <!-- Volunteer page section -->
+      <section>
+        <h2 id="volunteer">Volunteer page</h2>
+        <h3>Introduction</h3>
+        <p>The development of the Volunteer page was an enjoyable and rewarding experience, particularly as it reminded me of several similar projects I have worked on over the past seven years as a Front-End Developer. My goal was to create a page that was both simple and stylish while ensuring an engaging and user-friendly experience.</p>
+        <p>The overall design of the Volunteer page follows a clean and structured approach. One of the key elements I focused on was the volunteering program cards, as I found designing them to be the most engaging part of the process.</p>
+        <h3>Technical Description</h3>
+        <h4>Volunteering Program Cards</h4>
+        <p>Each volunteering program card features an image at the top, providing an engaging visual introduction to the program. Below the image, I placed an H3 heading tag for the program title, maintaining consistency with the page’s heading hierarchy. To enhance the card’s layout, I wrapped the content below the image within a div container and applied display: flex, ensuring a visually appealing and well-structured design. Additionally, I incorporated icons within each card to highlight key aspects of the volunteering programs, improving clarity and readability for users.</p>
+        <h4>Reviews Section</h4>
+        <p>The reviews section was implemented below the volunteering program cards and includes a review display area alongside a form for submitting new reviews. The reviews are presented using elementary cards, ensuring a clean and structured appearance. Each review card contains essential elements such as the reviewer’s name, score, feedback text, and date. To facilitate user interaction, a review submission form was included, utilizing display: grid for a well-structured and user-friendly layout.</p>
+        <h4>Styling and Layout</h4>
+        <p>For styling and layout, I leveraged a combination of CSS classes to precisely design and structure each element on the page. Flexbox was extensively used to style most components, ensuring proper alignment and spacing. The form section, however, was structured using a grid layout to create an intuitive and organized input structure. Additionally, consistent theming was applied throughout the page, maintaining visual harmony across elements by using uniform typography, spacing, and color schemes.</p>
+        <h3>Accessibility</h3>
+        <p>To ensure accessibility, I structured the page using proper HTML elements and a clear heading hierarchy. The form section includes appropriate labels for input fields, making it easier for users to navigate and interact with. Additionally, visual hierarchy was maintained through appropriate use of headings and content separation, improving readability and usability.</p>
+        <p>Also,  I made sure that all images have descriptive alt text, ensuring they are accessible to users who rely on screen readers. Furthermore, I added an aria-label to the form so that assistive technologies can correctly identify and interpret its purpose. Finally, I checked that the overall text-to-background contrast followed WCAG (Web Content Accessibility Guidelines) standards. To achieve this, I used the WAVE Evaluation Tool to analyze elements across the page and made necessary adjustments to enhance readability and usability for all users.</p>
+        <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+        <p><a href="validation_ST1.html#volunteerVal">Include a link to the validation page</a>, use the marker to jump
+          to the corresponding section of the validation page.</p>
+        <h3>Link to the page</h3>
+        <p><a href="volunteer.html">Include a link to the actual page you describe.</a></p>
+      </section>
+
+      <!-- Content page section -->
+      <section>
+        <h2 id="content">Content Page</h2>
+        <h3>Introduction</h3>
+        <p>The development of the Content page was guided by the need to maintain consistency with the website's overall design while ensuring an engaging and structured layout. The page was designed to present informative content in a visually appealing and well-organised manner.</p>
+        <p>The Content page begins with a banner/leaderboard at the top, which includes an H1 title and an accompanying image. This section serves as an introduction to the page’s subject and aligns with the website’s branding. The page follows a structured layout with different sections, each containing a title, text content, and a relevant image. This approach ensures a logical flow of information, making the content easy to read and navigate.</p>
+        <p>The main topic of the page revolves around the importance of sleep and recovery in maintaining a healthy life. The content explores how sleep impacts various aspects of well-being, including fitness, mental health, and nutrition. Additionally, a dedicated section provides practical tips to improve sleep quality, enhancing the page’s informative value.</p>
+        <h3>Technical Description</h3>
+        <p>To achieve a well-balanced and visually appealing layout, I used a combination of CSS classes to design and style each element precisely. The leaderboard and content sections were styled using display: flex, ensuring proper alignment and responsiveness across different screen sizes. The use of flexbox allows the text and images to be well-structured and adaptable to various devices.</p>
+        <p>One of the key features of this page is the inclusion of an aside section that serves as a sidebar menu. This menu contains quick navigation links to different sections of the content. To enhance usability, I applied the position: sticky technique, ensuring that the sidebar remains visible while scrolling. This feature provides users with continuous access to navigation options, improving the overall user experience.</p>
+        <h3>Accessibility</h3>
+        <p>In terms of accessibility for the content page, I ensured that all images have descriptive alt text, making them readable for screen readers. The form elements and navigation links were structured with appropriate aria-label attributes where necessary, ensuring that assistive technologies can interpret them correctly. Additionally, I verified the text-to-background contrast using the WAVE Evaluation Tool, making adjustments to ensure compliance with WCAG standards and improve readability for all users.</p>
+        <h3>Link to the validation page</h3> <!-- Update the path to link the Page Editor with the splash page -->
+        <p><a href="validation_ST1.html#contentVal">Include a link to the validation page</a>, use the marker to jump to
+          the corresponding section of the validation page.</p>
+        <!-- Update the path to link the Page Editor with the validation page and make it jump to the marker that contains a snapshot for the splash page -->
+
+
+        <h3>Link to the page</h3>
+        <p><a href="content.html">Include a link to the actual page you describe.</a></p>
+      </section>
+
+      <!-- Challenges section -->
+      <section>
+        <h2 id="challenges"> Challenges and Lessons Learned</h2>
+        <p>Overall, working on the pages I had to make, I encountered no significant challenges.</p>
+        <p>I had to research how to make a loader element for the splash page using only CSS, which was interesting.</p>
+        <p>It was also interesting to study the subject on which our website was based, which is health-related topics and assets.</p>
+      </section>
+
+      <!-- Compliance section -->
+      <section>
+        <h2 id="compliance">Compliance</h2>
+        <p>The pages I have created are fully compliant with Janet's regulations.</p>
+        <p>I have ensured accessibility by adhering to the WCAG 2.1 guidelines.</p>
+        <p>Furthermore, the website is free of any inappropriate, offensive, or illegal content, and it does not collect or store user data since it lacks the necessary functionality.</p>
+
+
+      </section>
+
+      <!-- References section -->
+      <section>
+        <h2 id="references">References</h2>
+        <p>Provide links to resources you used following a consistent format (e.g., APA, MLA, or a simplified style).
+          For example:<br><br>
+        <ul class="ref">
+          <li>A child with special needs due to chromosome 8P inversion duplication... (2015). iStock. Available from <a
+              href="https://www.istockphoto.com/photo/boy-with-developmental-disability-gm533744195-56623118">https://www.istockphoto.com/photo/boy-with-developmental-disability-gm533744195-56623118</a>.
+          </li>
+          <li>Afif, T. (2025). The Progress CSS Loaders Collection. Css-loaders.com. Available from <a
+              href="https://css-loaders.com/progress/">https://css-loaders.com/progress/</a>.</li>
+          <li>Alruwaili, N.W. et al. (2023). The effect of nutrition and physical activity on sleep quality among
+            adults: a scoping review. Sleep Science and Practice, 7 (1). Available from <a
+              href="https://doi.org/10.1186/s41606-023-00090-4">https://doi.org/10.1186/s41606-023-00090-4</a>.</li>
+          <li>Cozy Bedroom At Night Interior Flat Vector Illustration. Wooden... (2021). iStock. Available from <a
+              href="https://www.istockphoto.com/vector/cozy-bedroom-at-night-interior-flat-vector-illustration-gm1306140454-396806138">https://www.istockphoto.com/vector/cozy-bedroom-at-night-interior-flat-vector-illustration-gm1306140454-396806138</a>.
+          </li>
+          <li>Girl lying under blanket holding flashlight reading book. Teen reads... (2024). iStock. Available from <a
+              href="https://www.istockphoto.com/vector/leisure-bedtime-vector-illustration-with-young-woman-lying-in-bed-under-blanket-gm2060945918-563916839">https://www.istockphoto.com/vector/leisure-bedtime-vector-illustration-with-young-woman-lying-in-bed-under-blanket-gm2060945918-563916839</a>.
+          </li>
+          <li>Peaceful sleep concept. Man lies on clouds, metaphor for comfortable... (2022). iStock. Available from <a
+              href="https://www.istockphoto.com/vector/peaceful-sleep-concept-gm1409199124-459830565">https://www.istockphoto.com/vector/peaceful-sleep-concept-gm1409199124-459830565</a>.
+          </li>
+          <li>Shot of a volunteer doctor giving checkups to underprivileged kids. (2016). iStock. Available from <a
+              href="https://www.istockphoto.com/photo/that-tickles-gm519084074-90359669">https://www.istockphoto.com/photo/that-tickles-gm519084074-90359669</a>.
+          </li>
+          <li>Smile, healthcare and portrait of nurse with patient in a wheelchair... (2024). iStock. Available from <a
+              href="https://www.istockphoto.com/photo/smile-healthcare-and-portrait-of-nurse-with-patient-in-a-wheelchair-for-discussion-gm1975788076-558718034">https://www.istockphoto.com/photo/smile-healthcare-and-portrait-of-nurse-with-patient-in-a-wheelchair-for-discussion-gm1975788076-558718034</a>.
+          </li>
+          <li>Suni, E. (2024). Mental health and sleep. Sleep Foundation. Available from <a
+              href="https://www.sleepfoundation.org/mental-health">https://www.sleepfoundation.org/mental-health</a>.
+          </li>
+          <li>Top view of fruit salad on wooden table illustration. (2022). iStock. Available from <a
+              href="https://www.istockphoto.com/vector/top-view-of-fruit-salad-on-wooden-table-gm1415152860-463622367">https://www.istockphoto.com/vector/top-view-of-fruit-salad-on-wooden-table-gm1415152860-463622367</a>.
+          </li>
+          <li>Volunteering for the Community Stock Photo. (2025). Istockphoto.com. Available from <a
+              href="https://www.istockphoto.com/photo/volunteering-for-the-community-gm1382389831-443146352">https://www.istockphoto.com/photo/volunteering-for-the-community-gm1382389831-443146352</a>.
+          </li>
+          <li>Young female character practising yoga and meditation at home,... (2020). iStock. Available from <a
+              href="https://www.istockphoto.com/vector/young-female-character-practising-yoga-and-meditation-at-home-mindfulness-modern-gm1217697475-355549082">https://www.istockphoto.com/vector/young-female-character-practising-yoga-and-meditation-at-home-mindfulness-modern-gm1217697475-355549082</a>.
+          </li>
+        </ul>
+      </section>
+
+      <p class="top"><a href="#top">Go top</a></p>
+    </div>
+  </main>
+  <div class="line-above-footer"></div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links">
+        <h3 class="footer-editor-header">Links</h3>
+        <a href="home.html">Home</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="sitemap.html">sitemap</a>
+        <a href="profile.html">User profile</a>
+        <a href="team.html">Team</a>
+        <a href="table.html">Table</a>
+      </div>
+      <div class="footer-editor-page">
+        <h3 class="footer-editor-header">Editors</h3>
+        <a href="pageEditor_ST1.html">Gianluca</a>
+        <a href="pageEditor_ST2.html">Rafael</a>
+        <a href="pageEditor_ST3.html">Karandeep</a>
+        <a href="pageEditor_ST4.html">Ayaan</a>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2025 all right reserved</p>
+  </footer>
+</body>
+
+</html>
